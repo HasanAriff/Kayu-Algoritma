@@ -2,10 +2,8 @@
 
 int main() {
 
-//Kullanıcının seçimine göre haftanın gününü ekrana yazdıran programı switch ifadesini kullanarak yapınız.
-
     int secim;
-    printf("1-7 arasında bir sayı giriniz... 1=Pazartesi 2=Salı 3=Çarşamba 4=Perşembe 5=Cuma 6=Cumartesi 7=Pazar \n");
+    printf("Haftanın günlerini sayı olarak griniz... 1=Pazartesi 2=Salı 3=Çarşamba 4=Perşembe 5=Cuma 6=Cumartesi 7=Pazar \n");
     scanf("%d",&secim);
 
     switch (secim) {
